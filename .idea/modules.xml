@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppFromPrashant.iml" filepath="$PROJECT_DIR$/AppFromPrashant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catalogViewPagerIndicator/catalogViewPagerIndicator.iml" filepath="$PROJECT_DIR$/catalogViewPagerIndicator/catalogViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingActionButton/floatingActionButton.iml" filepath="$PROJECT_DIR$/floatingActionButton/floatingActionButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainActivity/mainActivity.iml" filepath="$PROJECT_DIR$/mainActivity/mainActivity.iml" />
+    </modules>
+  </component>
+</project>
+

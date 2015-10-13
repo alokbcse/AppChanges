@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-410a539586435bb1057314807eaabbb983a0c772.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-3f087364ed42f8d35db5109f161db2298b9402e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\classes-e7d89ba7f21b15377432da13e93bea9de574b2ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6-5f35fc452feafbc6a2b17aa3dc7985486d3ee9cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\libs\Parse-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a675f7e3312d8b28188ec653bbea6d435aaa7d1">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\Parse-1.5.0-2ec98230f3aa171932d8d28ca325377a308b259b.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\AppFromPrashant\catalogViewPagerIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="679c29188671ff009ea3b8820db6bd21dfea340f">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\classes-2fb72c0ef8baa4a36d5f32f337660f03d3275036.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6-bb57d7a0074ba98534849110eb113d4d078422dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\MainActivity1\floatingActionButton\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2011c66f64b132c83556b9dd8347164758f1b7e0">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\classes-cf561df9579a0630a84d552552a690dd1beed6d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\MainActivity1\floatingActionButton\unspecified\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview-bcf4b30805d6b8df368f1d8c1ad06f5b2a1db737.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-8d6ee8333ca3812f901c8ee8168e4cba2d9efd80.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\libs\Parse-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a675f7e3312d8b28188ec653bbea6d435aaa7d1">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\Parse-1.5.0-774e75d2bea890547693777c9fb6c5c360250470.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\AppFromPrashant\floatingActionButton\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c60ee41356a015fe820c0c8c33fc119b5dc02ddc">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\classes-5b736cbaa3dba3ff0235e6af7913b84f106fd68d.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\classes-6fc2a56206c0bee4264caeaaae5ba21c7ad31193.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\classes-53d6aed5b02ffe8c69fb4a34fc39cbf3a82cabb9.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-13b3a3f1dba7ba4f11e2020a14fb6906e64b706c.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\MainActivity1\catalogViewPagerIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="83ae78c5916ca3973d6f7bf9266d68d61a3469e8">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\classes-fba081cc0c6a608b9d2a66412fd0941e118ef33c.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\classes-02f1172d4ed4195c0ae437999c04c21abc6caad2.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\AppFromPrashant\floatingActionButton\unspecified\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview-4f442902edcb40eaa2d098822bec2b8a01c67ac8.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.0\support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\support-annotations-22.1.0-6713a9c44fb48181092e2f8e54cc4692e4d6e5dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\exploded-aar\MainActivity1\floatingActionButton\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\MainActivity1\mainActivity\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-aaf3760081b65cdec8a5da7d80e80543c291a8d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\exploded-aar\AppFromPrashant\floatingActionButton\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\DELL\AndroidStudioProjects\AppFromPrashant\mainActivity\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-86aad153eae669029caafdce3ac6b0b39f25d1d5.jar" />
+    </item>
+
+</items>

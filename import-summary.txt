@@ -1,0 +1,730 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From CatalogViewPagerIndicator:
+* pom.xml
+From MainActivity:
+* .DS_Store
+* .idea\
+* .idea\.name
+* .idea\MainActivity.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* guide\
+* guide\.DS_Store
+* guide\assets\
+* guide\assets\.DS_Store
+* guide\assets\blueprint-css\
+* guide\assets\blueprint-css\ie.css
+* guide\assets\blueprint-css\plugins\
+* guide\assets\blueprint-css\plugins\buttons\
+* guide\assets\blueprint-css\plugins\buttons\icons\
+* guide\assets\blueprint-css\plugins\buttons\icons\cross.png
+* guide\assets\blueprint-css\plugins\buttons\icons\key.png
+* guide\assets\blueprint-css\plugins\buttons\icons\tick.png
+* guide\assets\blueprint-css\plugins\buttons\readme.txt
+* guide\assets\blueprint-css\plugins\buttons\screen.css
+* guide\assets\blueprint-css\plugins\fancy-type\
+* guide\assets\blueprint-css\plugins\fancy-type\readme.txt
+* guide\assets\blueprint-css\plugins\fancy-type\screen.css
+* guide\assets\blueprint-css\plugins\link-icons\
+* guide\assets\blueprint-css\plugins\link-icons\icons\
+* guide\assets\blueprint-css\plugins\link-icons\icons\doc.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\email.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\external.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\feed.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\im.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\pdf.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\visited.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\xls.png
+* guide\assets\blueprint-css\plugins\link-icons\readme.txt
+* guide\assets\blueprint-css\plugins\link-icons\screen.css
+* guide\assets\blueprint-css\plugins\rtl\
+* guide\assets\blueprint-css\plugins\rtl\readme.txt
+* guide\assets\blueprint-css\plugins\rtl\screen.css
+* guide\assets\blueprint-css\print.css
+* guide\assets\blueprint-css\screen.css
+* guide\assets\blueprint-css\src\
+* guide\assets\blueprint-css\src\forms.css
+* guide\assets\blueprint-css\src\grid.css
+* guide\assets\blueprint-css\src\grid.png
+* guide\assets\blueprint-css\src\ie.css
+* guide\assets\blueprint-css\src\print.css
+* guide\assets\blueprint-css\src\reset.css
+* guide\assets\blueprint-css\src\typography.css
+* guide\assets\images\
+* guide\assets\images\.DS_Store
+* guide\assets\images\appsettings.png
+* guide\assets\images\import-1.png
+* guide\assets\images\import-2.png
+* guide\assets\images\import-3.png
+* guide\assets\images\import-4.png
+* guide\assets\images\import-5.png
+* guide\assets\images\import-6.png
+* guide\assets\images\import-7.png
+* guide\assets\images\import-8.png
+* guide\assets\images\import-9.png
+* guide\assets\images\parse-create-app-2.png
+* guide\assets\images\parse-create-app-3.png
+* guide\assets\images\parse-create-app-4.png
+* guide\assets\images\parse-create-app.png
+* guide\assets\images\parse-send-mgs-2.png
+* guide\assets\images\parse-send-msg-3.png
+* guide\assets\images\parse-send-msg-4.png
+* guide\assets\images\parse-send-msg.png
+* guide\assets\images\parse-signup.png
+* guide\assets\images\supportlib.PNG
+* guide\assets\images\xml-categories.png
+* guide\assets\images\xml-location.png
+* guide\assets\images\xml-products.png
+* guide\assets\images\xml-slider.png
+* guide\index.html
+* ic_launcher-web.png
+* lib-projects\
+* lib-projects\CatalogViewPagerIndicator\
+* lib-projects\CatalogViewPagerIndicator\AndroidManifest.xml
+* lib-projects\CatalogViewPagerIndicator\libs\
+* lib-projects\CatalogViewPagerIndicator\libs\android-support-v4.jar
+* lib-projects\CatalogViewPagerIndicator\pom.xml
+* lib-projects\CatalogViewPagerIndicator\project.properties
+* lib-projects\CatalogViewPagerIndicator\res\
+* lib-projects\CatalogViewPagerIndicator\res\color\
+* lib-projects\CatalogViewPagerIndicator\res\color\vpi__dark_theme.xml
+* lib-projects\CatalogViewPagerIndicator\res\color\vpi__light_theme.xml
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_selected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_selected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_selected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_unselected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_unselected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-hdpi\vpi__tab_unselected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_selected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_selected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_selected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_unselected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_unselected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-mdpi\vpi__tab_unselected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_selected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_selected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_selected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_unselected_focused_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_unselected_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable-xhdpi\vpi__tab_unselected_pressed_holo.9.png
+* lib-projects\CatalogViewPagerIndicator\res\drawable\
+* lib-projects\CatalogViewPagerIndicator\res\drawable\vpi__tab_indicator.xml
+* lib-projects\CatalogViewPagerIndicator\res\values\
+* lib-projects\CatalogViewPagerIndicator\res\values\vpi__attrs.xml
+* lib-projects\CatalogViewPagerIndicator\res\values\vpi__colors.xml
+* lib-projects\CatalogViewPagerIndicator\res\values\vpi__defaults.xml
+* lib-projects\CatalogViewPagerIndicator\res\values\vpi__styles.xml
+* lib-projects\CatalogViewPagerIndicator\src\
+* lib-projects\CatalogViewPagerIndicator\src\com\
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\CirclePageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\IconPageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\IconPagerAdapter.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\IcsLinearLayout.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\LinePageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\PageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\TabPageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\TitlePageIndicator.java
+* lib-projects\CatalogViewPagerIndicator\src\com\viewpagerindicator\UnderlinePageIndicator.java
+* lib-projects\FloatingActionButton\
+* lib-projects\FloatingActionButton\AndroidManifest.xml
+* lib-projects\FloatingActionButton\libs\
+* lib-projects\FloatingActionButton\libs\android-support-v4.jar
+* lib-projects\FloatingActionButton\libs\android-support-v7-recyclerview.jar
+* lib-projects\FloatingActionButton\libs\nineoldandroids-2.4.0.jar
+* lib-projects\FloatingActionButton\project.properties
+* lib-projects\FloatingActionButton\res\
+* lib-projects\FloatingActionButton\res\drawable-hdpi\
+* lib-projects\FloatingActionButton\res\drawable-hdpi\shadow.png
+* lib-projects\FloatingActionButton\res\drawable-hdpi\shadow_mini.png
+* lib-projects\FloatingActionButton\res\drawable-mdpi\
+* lib-projects\FloatingActionButton\res\drawable-mdpi\shadow.png
+* lib-projects\FloatingActionButton\res\drawable-mdpi\shadow_mini.png
+* lib-projects\FloatingActionButton\res\drawable-xhdpi\
+* lib-projects\FloatingActionButton\res\drawable-xhdpi\shadow.png
+* lib-projects\FloatingActionButton\res\drawable-xhdpi\shadow_mini.png
+* lib-projects\FloatingActionButton\res\drawable-xxhdpi\
+* lib-projects\FloatingActionButton\res\drawable-xxhdpi\shadow.png
+* lib-projects\FloatingActionButton\res\drawable-xxhdpi\shadow_mini.png
+* lib-projects\FloatingActionButton\res\drawable-xxxhdpi\
+* lib-projects\FloatingActionButton\res\drawable-xxxhdpi\shadow.png
+* lib-projects\FloatingActionButton\res\drawable-xxxhdpi\shadow_mini.png
+* lib-projects\FloatingActionButton\res\values\
+* lib-projects\FloatingActionButton\res\values\attrs.xml
+* lib-projects\FloatingActionButton\res\values\colors.xml
+* lib-projects\FloatingActionButton\res\values\dimens.xml
+* lib-projects\FloatingActionButton\res\values\info_strings.xml
+* lib-projects\FloatingActionButton\src\
+* lib-projects\FloatingActionButton\src\com\
+* lib-projects\FloatingActionButton\src\com\melnykov\
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\AbsListViewScrollDetector.java
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\FloatingActionButton.java
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\ObservableScrollView.java
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\RecyclerViewScrollDetector.java
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\ScrollDirectionListener.java
+* lib-projects\FloatingActionButton\src\com\melnykov\fab\ScrollViewScrollDetector.java
+* lib-projects\android-support-v7-appcompat_Rev21\
+* lib-projects\android-support-v7-appcompat_Rev21\AndroidManifest.xml
+* lib-projects\android-support-v7-appcompat_Rev21\README.txt
+* lib-projects\android-support-v7-appcompat_Rev21\libs\
+* lib-projects\android-support-v7-appcompat_Rev21\libs\android-support-v4.jar
+* lib-projects\android-support-v7-appcompat_Rev21\libs\android-support-v7-appcompat.jar
+* lib-projects\android-support-v7-appcompat_Rev21\project.properties
+* lib-projects\android-support-v7-appcompat_Rev21\res\
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_fade_in.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_fade_out.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_slide_in_bottom.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_slide_in_top.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_slide_out_bottom.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\anim\abc_slide_out_top.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_background_cache_hint_selector_material_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_background_cache_hint_selector_material_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_primary_text_disable_only_material_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_primary_text_disable_only_material_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_primary_text_material_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_primary_text_material_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_search_url_text.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_secondary_text_material_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\color\abc_secondary_text_material_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ab_share_pack_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ab_share_pack_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_check_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_check_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_radio_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_radio_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_switch_to_on_mtrl_00001.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_btn_switch_to_on_mtrl_00012.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_cab_background_top_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_clear_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_commit_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_go_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_paste_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_selectall_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_menu_share_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_ic_voice_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_divider_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_focused_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_longpressed_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_pressed_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_pressed_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_selector_disabled_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_list_selector_disabled_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_menu_hardkey_panel_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_popup_background_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_switch_track_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_tab_indicator_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_textfield_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_textfield_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_textfield_search_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-hdpi\abc_textfield_search_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-hdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-hdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-hdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-hdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-hdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-mdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-mdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-mdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-mdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-mdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxxhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxxhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxxhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-ldrtl-xxxhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ab_share_pack_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ab_share_pack_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_check_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_check_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_radio_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_radio_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_switch_to_on_mtrl_00001.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_btn_switch_to_on_mtrl_00012.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_cab_background_top_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_clear_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_commit_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_go_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_paste_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_selectall_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_menu_share_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_ic_voice_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_divider_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_focused_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_longpressed_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_pressed_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_pressed_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_selector_disabled_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_list_selector_disabled_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_menu_hardkey_panel_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_popup_background_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_switch_track_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_tab_indicator_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_textfield_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_textfield_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_textfield_search_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-mdpi\abc_textfield_search_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ab_share_pack_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ab_share_pack_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_check_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_check_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_radio_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_radio_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_switch_to_on_mtrl_00001.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_btn_switch_to_on_mtrl_00012.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_cab_background_top_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_clear_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_commit_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_go_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_paste_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_selectall_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_menu_share_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_ic_voice_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_divider_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_focused_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_longpressed_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_pressed_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_pressed_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_selector_disabled_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_list_selector_disabled_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_menu_hardkey_panel_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_popup_background_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_switch_track_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_tab_indicator_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_textfield_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_textfield_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_textfield_search_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xhdpi\abc_textfield_search_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ab_share_pack_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ab_share_pack_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_check_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_check_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_radio_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_radio_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_switch_to_on_mtrl_00001.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_btn_switch_to_on_mtrl_00012.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_cab_background_top_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_clear_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_commit_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_go_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_paste_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_selectall_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_menu_share_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_ic_voice_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_divider_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_focused_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_longpressed_holo.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_pressed_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_pressed_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_selector_disabled_holo_dark.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_list_selector_disabled_holo_light.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_menu_hardkey_panel_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_popup_background_mtrl_mult.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_switch_track_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_tab_indicator_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_textfield_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_textfield_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_textfield_search_activated_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxhdpi\abc_textfield_search_default_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_check_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_check_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_radio_to_on_mtrl_000.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_radio_to_on_mtrl_015.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_switch_to_on_mtrl_00001.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_btn_switch_to_on_mtrl_00012.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_ab_back_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_clear_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_menu_cut_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_menu_paste_mtrl_am_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_menu_selectall_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_ic_voice_search_api_mtrl_alpha.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_spinner_mtrl_am_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_switch_track_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable-xxxhdpi\abc_tab_indicator_mtrl_alpha.9.png
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_btn_check_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_btn_radio_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_cab_background_internal_bg.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_cab_background_top_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_edit_text_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_item_background_holo_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_item_background_holo_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_list_selector_background_transition_holo_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_list_selector_background_transition_holo_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_list_selector_holo_dark.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_list_selector_holo_light.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_switch_thumb_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_tab_indicator_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\drawable\abc_textfield_search_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout-v11\
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout-v11\abc_screen_content_include.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_bar_title_item.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_bar_up_container.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_bar_view_list_nav_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_menu_item_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_menu_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_mode_bar.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_action_mode_close_item_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_activity_chooser_view.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_activity_chooser_view_include.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_activity_chooser_view_list_item.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_expanded_menu_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_list_menu_item_checkbox.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_list_menu_item_icon.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_list_menu_item_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_list_menu_item_radio.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_popup_menu_item_layout.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_screen_content_include.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_screen_simple.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_screen_simple_overlay_action_mode.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_screen_toolbar.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_search_dropdown_item_icons_2line.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_search_view.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\abc_simple_dropdown_hint.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\layout\support_simple_spinner_dropdown_item.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-af\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-af\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-am\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-am\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ar\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ar\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-bg\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-bg\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-bn-rBD\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-bn-rBD\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ca\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ca\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-cs\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-cs\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-da\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-da\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-de\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-de\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-el\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-el\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-en-rGB\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-en-rGB\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-en-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-en-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-es-rUS\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-es-rUS\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-es\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-es\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-et-rEE\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-et-rEE\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-eu-rES\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-eu-rES\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fa\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fa\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fi\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fr-rCA\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fr-rCA\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fr\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-fr\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-gl-rES\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-gl-rES\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hi\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hr\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hr\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hu\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hu\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hy-rAM\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-hy-rAM\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-in\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-in\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-is-rIS\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-is-rIS\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-it\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-it\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-iw\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-iw\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ja\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ja\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ka-rGE\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ka-rGE\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-kk-rKZ\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-kk-rKZ\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-km-rKH\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-km-rKH\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-kn-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-kn-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ko\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ko\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ky-rKG\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ky-rKG\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-land\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-land\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-land\config.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-land\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-land\dimens_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-large\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-large\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-large\config.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-large\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-large\themes_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lo-rLA\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lo-rLA\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lt\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lt\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lv\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-lv\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mk-rMK\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mk-rMK\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ml-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ml-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mn-rMN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mn-rMN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mr-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-mr-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ms-rMY\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ms-rMY\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-my-rMM\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-my-rMM\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-nb\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-nb\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ne-rNP\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ne-rNP\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-nl\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-nl\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pl\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pl\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-port\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-port\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pt-rPT\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pt-rPT\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pt\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-pt\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ro\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ro\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ru\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ru\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-si-rLK\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-si-rLK\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sk\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sk\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sl\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sl\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sr\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sr\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sv\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sv\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sw600dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sw600dp\config.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sw600dp\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sw\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-sw\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ta-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ta-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-te-rIN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-te-rIN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-th\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-th\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-tl\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-tl\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-tr\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-tr\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-uk\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-uk\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ur-rPK\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-ur-rPK\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-uz-rUZ\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-uz-rUZ\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v11\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v11\styles_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v11\styles_base_text.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v11\themes_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v14\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v14\themes_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v17\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v17\styles_rtl.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v21\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v21\styles_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v21\styles_base_text.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-v21\themes_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-vi\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-vi\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w360dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w360dp\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w480dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w480dp\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w480dp\config.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w500dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w500dp\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w600dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w600dp\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w720dp\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-w720dp\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-xlarge-land\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-xlarge-land\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-xlarge\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-xlarge\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-xlarge\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rCN\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rCN\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rHK\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rHK\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rTW\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zh-rTW\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zu\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values-zu\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\attrs.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\bools.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\colors.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\colors_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\config.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\dimens.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\dimens_material.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\ids.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\strings.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\styles.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\styles_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\styles_base_text.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\styles_rtl.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\themes.xml
+* lib-projects\android-support-v7-appcompat_Rev21\res\values\themes_base.xml
+* lib-projects\android-support-v7-appcompat_Rev21\src\
+* lib-projects\android-support-v7-appcompat_Rev21\src\.readme
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat_Rev21 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In CatalogViewPagerIndicator:
+* AndroidManifest.xml => catalogViewPagerIndicator\src\main\AndroidManifest.xml
+* assets\ => catalogViewPagerIndicator\src\main\assets\
+* res\ => catalogViewPagerIndicator\src\main\res\
+* src\ => catalogViewPagerIndicator\src\main\java\
+In FloatingActionButton:
+* AndroidManifest.xml => floatingActionButton\src\main\AndroidManifest.xml
+* assets\ => floatingActionButton\src\main\assets\
+* libs\android-support-v7-recyclerview.jar => floatingActionButton\libs\android-support-v7-recyclerview.jar
+* libs\nineoldandroids-2.4.0.jar => floatingActionButton\libs\nineoldandroids-2.4.0.jar
+* res\ => floatingActionButton\src\main\res\
+* src\ => floatingActionButton\src\main\java\
+In MainActivity:
+* AndroidManifest.xml => mainActivity\src\main\AndroidManifest.xml
+* assets\ => mainActivity\src\main\assets\
+* libs\Parse-1.5.0.jar => mainActivity\libs\Parse-1.5.0.jar
+* libs\simple-xml-2.7.1.jar => mainActivity\libs\simple-xml-2.7.1.jar
+* libs\universal-image-loader-1.8.6.jar => mainActivity\libs\universal-image-loader-1.8.6.jar
+* res\ => mainActivity\src\main\res\
+* src\ => mainActivity\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
